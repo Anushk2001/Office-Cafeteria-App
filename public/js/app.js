@@ -2355,7 +2355,7 @@ var updateCart = function updateCart(food) {
     new (noty__WEBPACK_IMPORTED_MODULE_1___default())({
       type: "success",
       timeout: 1000,
-      text: "Item added to cart",
+      text: "Item added to cart", //when we click on Add button
       progressBar: false
     }).show();
   })["catch"](function (err) {
